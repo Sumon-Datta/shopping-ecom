@@ -1,0 +1,104 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+a, a:hover{
+    text-decoration: none;
+}
+
+a.navbar-brand img {
+    height: 50px;
+}
+
+/* landing section */
+
+.body{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../img/hero_2.jpg);
+
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.body .text-area{
+    
+     color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+}
+.body .text-area h1{
+       
+    font-size: 8vw;
+    font-weight: bold;
+}
+
+.body .text-area p{
+    font-weight: 500;
+}
+
+button.btn.btn-shop {
+    color: #fff;
+    background: transparent;
+    border: 2px solid #fff;
+    padding: 5px 15px;
+    font-size: 20px;
+}
+
+button.btn.btn-shop:hover {
+    color: #000;
+    background:#fff;
+    padding: 5px 15px;
+    font-size: 20px;
+}
+
+.btn.btn-start {
+    color: #000;
+    background:#fff;
+    padding: 6px 15px;
+    font-size: 20px;
+}
+ 
+
+.btn.btn-start:hover{
+    color: #fff;
+    background: none;
+    border: 2px solid #fff;
+    padding: 5px 14px;
+    font-size: 20px;
+}
+
+/* product  */
+
+.image-hover{
+    overflow: hidden;
+}
+
+.image-hover img{
+    transition: 0.5s;
+}
+
+.image-hover:hover img{
+    transform: scale(1.2);
+}
+
+/* testimonial start */
+
+.carousel-inner .carousel-item img{
+    border-radius: 50%;
+    width: 25%;
+    
+}
+
+/* testimonial end */
+
